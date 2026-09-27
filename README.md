@@ -7,6 +7,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 | Problem | Statement | Status |
 |---|---|---|
 | [A397588](A397588/) | OEIS A397588, `A(x) = x + (x·A(x)²)'`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
+| [A389540](A389540/) | OEIS A389540, `A(x)² = A(2x − 2A(x))/2`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
 
 ## Building
 

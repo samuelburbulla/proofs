@@ -81,3 +81,5 @@ Checked on 2026-09-27:
 * The OEIS entry (revision #18, Jul 04 2026) still lists the parity statement as a
   *Conjecture*. It gives no proof and has no link to one.
 * A web search found no proof of this statement for A397588.
+* S. Fried's papers proving OEIS conjectures ([arXiv:2410.07237](https://arxiv.org/abs/2410.07237),
+  [arXiv:2607.24832](https://arxiv.org/abs/2607.24832)) do not cover A397588.
