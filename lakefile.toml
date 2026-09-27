@@ -1,5 +1,5 @@
 name = "proofs"
-defaultTargets = ["A397588", "A389540"]
+defaultTargets = ["A397588", "A389540", "A361032"]
 
 [leanOptions]
 autoImplicit = false
@@ -16,3 +16,7 @@ srcDir = "A397588"
 [[lean_lib]]
 name = "A389540"
 srcDir = "A389540"
+
+[[lean_lib]]
+name = "A361032"
+srcDir = "A361032"

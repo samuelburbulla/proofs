@@ -8,6 +8,10 @@ This repository collects **new proofs of open problems**, each one checked by Le
    - Read the source, e.g. the current OEIS entry (`https://oeis.org/search?q=id:AXXXXXX&fmt=text`)
      and its history. The statement must still be marked as a conjecture or open question.
    - Search the web and arXiv for an existing proof.
+   - Check the AI-driven collections of formalized or resolved OEIS conjectures:
+     [formal-conjectures](https://github.com/google-deepmind/formal-conjectures),
+     [alphaproof-nexus-results](https://github.com/google-deepmind/alphaproof-nexus-results)
+     (arXiv:2605.22763) and the OEIS OPEN benchmark (arXiv:2608.11941).
    - Record what you checked, with the date, in the problem's README ("Novelty" section).
      If a proof already exists, stop and don't add the problem.
 2. **One subfolder per problem**, named after the problem (e.g. `A397588/` for an OEIS

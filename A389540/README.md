@@ -99,3 +99,7 @@ Checked on 2026-09-27:
 * A web search found no proof. S. Fried's papers proving OEIS conjectures
   ([arXiv:2410.07237](https://arxiv.org/abs/2410.07237),
   [arXiv:2607.24832](https://arxiv.org/abs/2607.24832)) do not cover A389540.
+* The sequence does not appear in the AlphaProof Nexus OEIS results (Tsoukalas et al.,
+  [arXiv:2605.22763](https://arxiv.org/abs/2605.22763)), the OEIS OPEN benchmark
+  ([arXiv:2608.11941](https://arxiv.org/abs/2608.11941)) or DeepMind's
+  [formal-conjectures](https://github.com/google-deepmind/formal-conjectures) library.

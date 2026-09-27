@@ -8,6 +8,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 |---|---|---|
 | [A397588](A397588/) | OEIS A397588, `A(x) = x + (x·A(x)²)'`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
 | [A389540](A389540/) | OEIS A389540, `A(x)² = A(2x − 2A(x))/2`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
+| [A361032](A361032/) | OEIS A361032–A361035, Bala's array `F(n)(4k)!/(k!(k+n+1)!³)`: integrality, and odd iff `n+k+1` is a power of 2 (settles the conjectures in A361033, A361034, A361035) | proved, checked in Lean |
 
 ## Building
 
