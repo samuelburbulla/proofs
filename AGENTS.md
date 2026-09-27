@@ -25,6 +25,8 @@ This repository collects **new proofs of open problems**, each one checked by Le
 4. **Register the library** in `lakefile.toml` (a `[[lean_lib]]` with `srcDir` set to the
    subfolder, and add it to `defaultTargets`), and add a row to the table in the root `README.md`.
 5. `lake build` must succeed with no errors or warnings before you commit.
+6. **Merge into `main`** once the Lean proof builds and the GitHub Actions `Lean` workflow
+   is green on the work branch.
 
 ## Building
 
