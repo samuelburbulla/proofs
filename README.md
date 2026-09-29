@@ -12,6 +12,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 | [A001481](A001481/) | OEIS A001481 (Lowell): two distinct sums of two squares never sum to a power of 2, except `0 + 2ᵏ` | proved, checked in Lean |
 | [A216971](A216971/) | OEIS A216971 (Perry): every entry of row `n` of the recurrent-element triangle is divisible by `n` | proved, checked in Lean |
 | [A337945](A337945/) | OEIS A337945 (Luschny): `m` has a solution of `s²+t² = km`, `s+t = m` iff `m` is not odd squarefree (both forms, incl. Clausen numbers) | proved, checked in Lean |
+| [A348840](A348840/) | OEIS A348840 (Mathar): the diagonals `T(n,n−2)`, `T(n,n−3)`, `T(n,n−4)` of the Motzkin touch triangle | proved, checked in Lean |
 
 ## Withdrawn
 
