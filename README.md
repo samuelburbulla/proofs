@@ -11,6 +11,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 | [WOWII19](WOWII19/) | Graffiti.pc / Written on the Wall II Conjecture 19: `⌊avg ecc + max_v α(N(v))⌋ ≤ b(G)` for connected graphs | proved, checked in Lean (also inside formal-conjectures) |
 | [A054390](A054390/) | OEIS A054390 (Mathar): hyperternary representations of `n` ↔ partitions of `n` into distinct parts `3ᵏ`, `2·3ᵏ` | proved, checked in Lean |
 | [A001481](A001481/) | OEIS A001481 (Lowell): two distinct sums of two squares never sum to a power of 2, except `0 + 2ᵏ` | proved, checked in Lean |
+| [A399155](A399155/) | OEIS A399155 (Dilkhush): subtracting the largest prime factor reaches 0 no slower than subtracting the smallest | proved, checked in Lean |
 
 ## Withdrawn
 
