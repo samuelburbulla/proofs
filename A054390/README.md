@@ -63,3 +63,9 @@ Checked on 2026-09-29:
   - Horace-Maxwell/ai4math-results;
   - formal-conjectures;
   - alphaproof-nexus-results.
+* Also checked on 2026-09-29:
+  - [farev/Matematica](https://github.com/farev/Matematica): no mention in `conjectures/` or in
+    `log/`;
+  - [astrafala/Conjectures](https://github.com/astrafala/Conjectures): the sequence is listed only
+    in `engine/deep-check/unread-unsettled.txt`, i.e. as not yet settled, and has no ledger
+    entry.

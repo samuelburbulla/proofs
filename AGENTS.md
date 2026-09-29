@@ -17,7 +17,11 @@ This repository collects **new proofs of open problems**, each one checked by Le
      [the-omega-institute/trureturing](https://github.com/the-omega-institute/trureturing)
      (`Library/*/hanna*a<id>.md`, `Problems/`) and
      [Horace-Maxwell/ai4math-results](https://github.com/Horace-Maxwell/ai4math-results)
-     (`ATTEMPTS.md`).
+     (`ATTEMPTS.md`), [farev/Matematica](https://github.com/farev/Matematica) (`conjectures/`
+     and the session logs in `log/`, which record short proofs "log only") and
+     [astrafala/Conjectures](https://github.com/astrafala/Conjectures) (`LEDGER.md`, `MANIFEST.tsv`).
+     File names do not always contain the id, so also grep the file contents for the id and for
+     keywords of the statement.
    - Record what you checked, with the date, in the problem's README ("Novelty" section).
      If a proof already exists, stop and don't add the problem.
 2. **One subfolder per problem**, named after the problem (e.g. `A397588/` for an OEIS

@@ -63,6 +63,12 @@ File: [`A001481.lean`](A001481.lean).
   file for A001481.
 * [Horace-Maxwell/ai4math-results](https://github.com/Horace-Maxwell/ai4math-results)
   (`ATTEMPTS.md`): A001481 is not mentioned.
+* Also checked on 2026-09-29:
+  - [farev/Matematica](https://github.com/farev/Matematica): no mention in `conjectures/` or in
+    `log/`;
+  - [astrafala/Conjectures](https://github.com/astrafala/Conjectures): the sequence is listed only
+    in `engine/deep-check/unread-unsettled.txt`, i.e. as not yet settled, and has no ledger
+    entry.
 
 The proof is elementary, so the statement may well be folklore. We found no published or
 recorded proof of this conjecture.
