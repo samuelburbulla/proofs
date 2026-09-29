@@ -14,6 +14,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 | [A337945](A337945/) | OEIS A337945 (Luschny): `m` has a solution of `s²+t² = km`, `s+t = m` iff `m` is not odd squarefree (both forms, incl. Clausen numbers) | proved, checked in Lean |
 | [A348840](A348840/) | OEIS A348840 (Mathar): the diagonals `T(n,n−2)`, `T(n,n−3)`, `T(n,n−4)` of the Motzkin touch triangle | proved, checked in Lean |
 | [A326250](A326250/) | OEIS A326250 (Wiseman): graphs on `{1..n}` without weakly nesting edges are counted by Catalan numbers, `2^C(n,2) = a(n) + Cₙ` | proved, checked in Lean |
+| [A104896](A104896/) | OEIS A104896 (Wajnberg): `a(n)` counts the integers in `[0, 10ⁿ)` without digits 0, 1, 2 | proved, checked in Lean |
 
 ## Withdrawn
 
