@@ -6,7 +6,6 @@ See [AGENTS.md](AGENTS.md) for the rules.
 
 | Problem | Statement | Status |
 |---|---|---|
-| [A397588](A397588/) | OEIS A397588, `A(x) = x + (x·A(x)²)'`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
 | [A361032](A361032/) | OEIS A361032–A361035, Bala's array `F(n)(4k)!/(k!(k+n+1)!³)`: integrality, and odd iff `n+k+1` is a power of 2 (settles the conjectures in A361033, A361034, A361035) | proved, checked in Lean |
 | [WOWII19](WOWII19/) | Graffiti.pc / Written on the Wall II Conjecture 19: `⌊avg ecc + max_v α(N(v))⌋ ≤ b(G)` for connected graphs | proved, checked in Lean (also inside formal-conjectures) |
 | [A054390](A054390/) | OEIS A054390 (Mathar): hyperternary representations of `n` ↔ partitions of `n` into distinct parts `3ᵏ`, `2·3ᵏ` | proved, checked in Lean |
@@ -33,6 +32,12 @@ of [farev/Matematica](https://github.com/farev/Matematica), dated 2026-09-03:
 
 * **OEIS A399155** (Dilkhush: subtracting the largest prime factor reaches `0` no slower than
   subtracting the smallest). It was added and removed on 2026-09-29.
+
+The fourth is a Lean proof in trureturing (`D5/S1/Recurrence/ConvolutionRecurrenceOddPowersOfTwo.lean`).
+A trureturing triage note of 2026-09-11 already lists it as present:
+
+* **OEIS A397588** (Hanna, `A(x) = x + (x·A(x)²)'`: `a(n)` odd iff `n` is a power of 2).
+  It was added here on 2026-09-27 and removed on 2026-09-29.
 
 ## Building
 

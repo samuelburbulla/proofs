@@ -20,15 +20,16 @@ This repository collects **new proofs of open problems**, each one checked by Le
      (`ATTEMPTS.md`), [farev/Matematica](https://github.com/farev/Matematica) (`conjectures/`
      and the session logs in `log/`, which record short proofs "log only") and
      [astrafala/Conjectures](https://github.com/astrafala/Conjectures) (`LEDGER.md`, `MANIFEST.tsv`).
-     File names do not always contain the id, so also grep the file contents for the id and for
-     keywords of the statement.
+     File names do not always contain the id. Also grep the file contents for the id
+     (`git grep -l A<id> origin/dev` in trureturing) and for keywords of the statement, and
+     web-search `trureturing A<id>`: its issues and pull requests are not in the repository files.
    - Record what you checked, with the date, in the problem's README ("Novelty" section).
      If a proof already exists, stop and don't add the problem.
-2. **One subfolder per problem**, named after the problem (e.g. `A397588/` for an OEIS
+2. **One subfolder per problem**, named after the problem (e.g. `A054390/` for an OEIS
    sequence). It contains:
    - `README.md` with the source, the problem statement, the solution (a readable proof
      written out by hand), the novelty check, and a map from the statements to the Lean theorem names.
-   - A Lean file (e.g. `A397588/A397588.lean`) that formalizes the statement and verifies the proof.
+   - A Lean file (e.g. `A054390/A054390.lean`) that formalizes the statement and verifies the proof.
 3. **The Lean proof must be complete and honest:**
    - no `sorry`, no `admit`, no new `axiom`, no `native_decide`
      (`#print axioms` should list only `propext`, `Classical.choice`, `Quot.sound`);

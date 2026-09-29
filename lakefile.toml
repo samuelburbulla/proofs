@@ -1,5 +1,5 @@
 name = "proofs"
-defaultTargets = ["A397588", "A361032", "WOWII19", "A054390", "A001481", "A216971", "A337945"]
+defaultTargets = ["A361032", "WOWII19", "A054390", "A001481", "A216971", "A337945"]
 
 [leanOptions]
 autoImplicit = false
@@ -8,10 +8,6 @@ autoImplicit = false
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
 rev = "v4.34.1"
-
-[[lean_lib]]
-name = "A397588"
-srcDir = "A397588"
 
 [[lean_lib]]
 name = "A361032"
