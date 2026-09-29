@@ -9,6 +9,7 @@ See [AGENTS.md](AGENTS.md) for the rules.
 | [A397588](A397588/) | OEIS A397588, `A(x) = x + (x·A(x)²)'`: `a(n)` is odd iff `n` is a power of 2 | proved, checked in Lean |
 | [A361032](A361032/) | OEIS A361032–A361035, Bala's array `F(n)(4k)!/(k!(k+n+1)!³)`: integrality, and odd iff `n+k+1` is a power of 2 (settles the conjectures in A361033, A361034, A361035) | proved, checked in Lean |
 | [WOWII19](WOWII19/) | Graffiti.pc / Written on the Wall II Conjecture 19: `⌊avg ecc + max_v α(N(v))⌋ ≤ b(G)` for connected graphs | proved, checked in Lean (also inside formal-conjectures) |
+| [A054390](A054390/) | OEIS A054390 (Mathar): hyperternary representations of `n` ↔ partitions of `n` into distinct parts `3ᵏ`, `2·3ᵏ` | proved, checked in Lean |
 
 ## Withdrawn
 
